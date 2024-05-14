@@ -8,7 +8,7 @@ To run this application locally:
   4. run python manage.py migrate --run-syncdb
   5. then simply run python manage.py runserver 
 
-In this project, I developed the functionality for users to leave and edit communities if they have the correct permissions, added various ui improvements, and also configured the github continuous integration test environment and wrote many of the tests found in src/communities/tests.py. I also developed a view for the user dashboard but due to restyling it did not make into the final version.
+In this project, I developed the functionality for users to leave and edit communities if they have the correct permissions, added various ui improvements, and also configured the github continuous integration test environment and wrote many of the tests found in src/communities/tests.py. I also developed a view for the user dashboard, but due to restyling it did not make into the final version.
 
 Current issues / future goals
   1. add more robust testing
